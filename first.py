@@ -1,4 +1,2 @@
-print('who am i')
-
-for i in range(10):
-    print("how am i supposed to know????")
+input("I can guess your age with one simple question")
+print("How old are you?")
