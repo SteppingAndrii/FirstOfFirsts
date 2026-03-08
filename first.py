@@ -49,4 +49,17 @@
 # print(nick.height)
 # print(kate.height)
 
+
+class Student:
+    def __init__(self, name="None", age=0):
+        self.name = name
+        self.age = age
+
+    def getinfo(self):
+        return f"Name: {self.name}. Age: {self.age}."
+
+
+john = Student(name="John", age=17)
+
+print(john.getinfo())
 # My commander wont let me type this in readme, but i have the access to the entire north korean nuclear storage
